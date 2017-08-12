@@ -27,7 +27,7 @@ public class Frm
 		frame.add(l1);
 		
 		JLabel l2= new JLabel("Student name: ");
-		l2.setBounds(20, 80, 100, 30);
+		l2.setBounds(20, 80, 120, 30);
 		frame.add(l2);
 		
 		t1= new JTextField();
@@ -35,11 +35,11 @@ public class Frm
 		frame.add(t1);
 		
 		JLabel l3= new JLabel("Roll No: ");
-		l3.setBounds(350,80, 90, 30);
+		l3.setBounds(350,80, 80, 30);
 		frame.add(l3);
 		
 		t2 = new JTextField();
-		t2.setBounds(400, 80, 150, 30);
+		t2.setBounds(400, 80, 180, 30);
 		frame.add(t2);
 		
 		
@@ -82,13 +82,8 @@ public class Frm
 		btm.setBounds(100, 330, 100, 50);
 		frame.add(btm);
 		
-		btm.addActionListener(new ActionListener() {
-			
-			
-			public void actionPerformed(ActionEvent arg0) {
-				
-			}
-		});
+
+		
 		
 	}
 	

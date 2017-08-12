@@ -14,6 +14,7 @@ public class Marks
 	}
 	public void setRoll(int roll) {
 		this.roll = roll;
+		
 	}
 	
 	
